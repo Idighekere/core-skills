@@ -1,18 +1,33 @@
-# [Valid PArenthesis]
+---
+number: "20"
+title: 0020-valid-parentheses
+platform: leetcode
+difficulty: easy
+status: new
+date: 2026-08-28
+tags:
+  - ds/stack
+---
 
-- **Problem Link:** [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
-- **Difficulty:** [Easy]
-- **Pattern:** [Stack]
+# 0020-valid-parentheses
 
-## Thought Process
+**Link:** https://leetcode.com/problems/valid-parentheses/
 
-### Intuition
+## Summary
+Describe the problem in your own words.
+
+## First thoughts
+What was your initial idea?
 
 After hours of thinking of how to do it, i found out i only need to store the opening bracketsin a stack (we use stack, as a valid parenthesis will close the last openning bracket before the previous). and since the brackets are not same.
 
 I thought of using two arrays one for the opeing and other for the closing, in the same order. 
 
-### Approach
+## Key insight
+What realization unlocked the solution?
+
+## Solution
+Explain the approach step by step.
 
 1. I keep track of the opening brackets that hasn't been closed in an stack. 
 2. when we loop through the input string
@@ -24,12 +39,8 @@ To acheive this using the two arrays of bracket. i get the index of the closing 
 7. then it is neither a closing or opening bracket, then it's not a valid paretheses.
 8. At the end of the day, the paretheses should be valid if the stack is empty. 
 
-### Complexity Analysis
-
 - **Time Complexity:** O(n) because we go through every single character once
 - **Space Complexity:** O(n)
-
-## Solution
 
 ```python
 def is_valid_parenthesis(s):
@@ -58,4 +69,20 @@ print(is_valid_parenthesis("(){}[]"))
 print(is_valid_parenthesis("([)"))
 print(is_valid_parenthesis("()"))
 print(is_valid_parenthesis(")()"))
-```
+``` 
+
+## Mistakes
+What I got wrong the first time.
+
+## Edge cases
+Empty input, single item, duplicates, overflow, off-by-one.
+
+## Learned
+What transfers to other problems?
+
+## Revisit
+- [ ] Solve again in 3 days
+- [ ] Solve again in 1 week
+- [ ] Solve again in 1 month
+
+
