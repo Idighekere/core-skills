@@ -26,14 +26,14 @@ How is it actually organized in memory?
 | Delete | | |
 
 ## Idioms & gotchas
-Pointer order, edge cases, empty state — the stuff that always causes bugs. Code idioms to memorise.
+The stuff that always causes bugs: pointer order, edge cases, empty state. Code idioms to memorise.
 
 ## Patterns it enables
 - Which [[pattern]]s usually use this data structure?
 - Related problems: links into `04-Problems/`.
 
 ## Variations
-Sibling data structures that build on this one — each gets its own note + cross-link.
+Data structures that build on this one — each gets its own note + cross-link.
 
 ## Pitfalls
 Misconceptions + common mistakes.

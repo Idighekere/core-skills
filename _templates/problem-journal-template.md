@@ -22,7 +22,7 @@ What was your initial idea?
 What realization unlocked the solution?
 
 ## Solution
-Explain the approach step by step, then code. Complexity inline.
+Explain the approach step by step.
 
 ## Mistakes
 What I got wrong the first time.
@@ -31,7 +31,7 @@ What I got wrong the first time.
 Empty input, single item, duplicates, overflow, off-by-one.
 
 ## Learned
-What I learned that transfers to other problems.
+What transfers to other problems?
 
 ## Revisit
 - [ ] Solve again in 3 days

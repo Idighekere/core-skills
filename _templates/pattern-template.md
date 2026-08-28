@@ -17,7 +17,7 @@ What conditions must hold before this works?
 Sorted input, duplicates, linked structure, etc.
 
 ## Generic algorithm
-Fenced pseudo/Python scaffold with the key invariants commented.
+Pseudo/Python scaffold with the key invariants commented.
 
 ## Complexity
 
@@ -31,7 +31,7 @@ Fenced pseudo/Python scaffold with the key invariants commented.
 ## Gotchas
 
 ## Example problems
-- Links into `04-Problems/` that exercise this pattern.
+- Add links to `04-Problems/`.
 
 ## Similar patterns
-- Neighbouring patterns — what to choose when this one doesn't fit.
+- What to choose when this one doesn't fit.
