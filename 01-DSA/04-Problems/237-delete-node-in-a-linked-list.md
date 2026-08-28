@@ -1,8 +1,8 @@
 ---
-number: ""
+number: "237"
 title: 237-delete-node-in-a-linked-list
-platform: ""
-difficulty: ""
+platform: leetcode
+difficulty: medium
 status: new
 date: 2026-08-28
 tags:
@@ -46,10 +46,11 @@ What I got wrong the first time.
 ## Edge cases
 Empty input, single item, duplicates, overflow, off-by-one.
 
-We were told that values are unique, and we won't be given the `tail` to delete, so no much edge case to 
+We were told that values are unique, and we won't be given the `tail` to delete, so no much edge case to handle
 ## Learned
 What transfers to other problems?
 
+I don't always have to overthink a problem, especially if the difficulty is medium or hard
 ## Revisit
 - [ ] Solve again in 3 days
 - [ ] Solve again in 1 week
