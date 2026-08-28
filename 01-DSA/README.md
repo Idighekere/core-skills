@@ -51,5 +51,17 @@ Notes-first DSA learning: data structures, algorithmic patterns, core concepts, 
 | 705 | [Design HashSet](04-Problems/0705-design-hashset.md) | chained hash |
 | 706 | [Design HashMap](04-Problems/0706-design-hashmap.md) | chained hash |
 
+## 05 - Practice (Grokking book exercises, my answers)
+
+| Chapter | Exercise & code |
+|---------|-----------------|
+| 1 | [Binary Search](05-Practice/01-Grokking%20Chapter%201%20-%20Binary%20Search.md) |
+| 2 | [Selection Sort](05-Practice/02-Grokking%20Chapter%202%20-%20Selection%20Sort.md) |
+| 3 | [Recursion](05-Practice/03-Grokking%20Chapter%203%20-%20Recursion.md) |
+| 4 | [Quicksort](05-Practice/04-Grokking%20Chapter%204%20-%20Quicksort.md) |
+| 5 | [Hash Tables](05-Practice/05-Grokking%20Chapter%205%20-%20Hash%20Tables.md) |
+| 6 | [BFS](05-Practice/06-Grokking%20Chapter%206%20-%20BFS.md) |
+| 7 | [Trees](05-Practice/07-Grokking%20Chapter%207%20-%20Trees.md) |
+
 ## How problems connect
 Every problem links *up* to its pattern and data structure; every pattern/data-structure note links *down* to its problems. The graph is the point — in Obsidian open the Graph view; on GitHub use the tables above.
