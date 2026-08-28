@@ -1,18 +1,34 @@
-# [Best time to buy and sell stock]
+---
+number: "121"
+title: 0121-best-time-to-buy-and-sell-stock
+platform: leetcode
+difficulty: easy
+status: new
+date: 2026-08-28
+tags:
+  - ds/array
+---
 
-- **Problem Link:** [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)
-- **Difficulty:** [Easy]
-- **Pattern:** [Array]
+# 0121-best-time-to-buy-and-sell-stock
 
-## Thought Process
+**Link:** https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
+
+## Summary
+Describe the problem in your own words.
+
 The goal is to buy at rhe least price and sell at the highest price tomake the most profit
 
-### Intuition
+## First thoughts
+What was your initial idea?
 
 I did struggle with this problem till i had to go watch tutorial.
 I was thinking of using a nested loop to track the min price and the other future prices to buy from. I tried and tried and couldn't get it. Based on the example, I was thinking how I could get to pick 1, instead of 7, whcih was the first day. if i have to skip the first day, but this won't work for other test cases
 
-### Approach
+## Key insight
+What realization unlocked the solution?
+
+## Solution
+Explain the approach step by step.
 
 The solution is to keep track of the minimum price(so we buy) and the max profit we can get.
 
@@ -24,12 +40,8 @@ The solution is to keep track of the minimum price(so we buy) and the max profit
 6. if the profit of the current price is greater than the max_profit we can make from previous trades, we update the max profit to the current profit.
 7. At the end we return the max profit
 
-### Complexity Analysis
-
 - **Time Complexity:** O(n)
 - **Space Complexity:** O(1)
-
-## Solution
 
 ```python
 def max_profit(prices):
@@ -54,3 +66,17 @@ arr2=[7,6,4,3,1]
 
 print(max_profit(arr))
 ```
+
+## Mistakes
+What I got wrong the first time.
+
+## Edge cases
+Empty input, single item, duplicates, overflow, off-by-one.
+
+## Learned
+What transfers to other problems?
+
+## Revisit
+- [ ] Solve again in 3 days
+- [ ] Solve again in 1 week
+- [ ] Solve again in 1 month

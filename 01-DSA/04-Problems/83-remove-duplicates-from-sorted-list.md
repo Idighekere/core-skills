@@ -1,25 +1,26 @@
-# Problem: 83. Remove Duplicates from Sorted List
-
-**Date:** 2026-08-25, 17:27
-
-**Platform:** Leetcode
-**Difficulty:** Easy
-**Link:** https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/?envType=problem-list-v2&envId=linked-list
-
+---
+number: "83"
+title: 83-remove-duplicates-from-sorted-list
+platform: leetcode
+difficulty: easy
+status: new
+date: 2026-08-25
+tags:
+  - ds/linked-list
 ---
 
-## Problem Summary
+# 83-remove-duplicates-from-sorted-list
 
+**Link:** https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/?envType=problem-list-v2&envId=linked-list
+
+## Summary
 Describe the problem in your own words.
 
 We are provided with a list that is guaranteed to be always sorteed and we are to remove all duplicates and still return the unique lists still sorted
 
 ![Remove Dupllicates from sorted List](../../_attachments/Remove%20Dupllicates%20from%20sorted%20List%2020260826164942.png)
 
----
-
-## First Thoughts
-
+## First thoughts
 What was your initial idea?
 
 I itereate over the linkedlists, and then compare the current node with the immediate next, if they are same I wil rewire it's pointer to point to the next's node next's eliminating its immediate next.
@@ -59,26 +60,12 @@ I tried this, but it won't handle cases where the duplicates are more than 2. So
 		return head
 ```
 
-
-
----
-
-## Data Structure(s) Used
-
-- [Linked List](../01-Data%20Structures/Linked%20List.md)
-
----
-
-## Key Insight
-
+## Key insight
 What realization unlocked the solution?
 
 The duplicates can be more than one so when we rewire a node's next to be the node next's next, we shoulnd't move the pointer till we confirm that where we are rewiring to is not a duplicate.
 
----
-
-## Solution Strategy
-
+## Solution
 Explain the approach step by step.
 
 We start my setting head to be `cur` so we can use it for iterataion 
@@ -103,41 +90,13 @@ class Solution:
 			
 		return head
 ```
----
-
-## Complexity
 
 We are just iterating over the lists once and not using extra variable to hold extra stuff.
 
 Assuming we created an output variable to store non duplicate and compare it with the actaul lists, this would have made it O(n) space..
 
-| Metric | Complexity |
-| ------ | ---------- |
-| Time   | O(n)       |
-| Space  | O(1)       |
-
----
-
-## Mistakes I Made
-
-- I brought `prev` thinking i need it to check the previous node and the current after iterating but that didn't handle all each cases like in cases where all duplicates are same as in `[1, 1, 1]` 
-
----
-
-## Edge Cases
-
--  When the duplicates are more than 2. This can be tackled by not just stopping after eliminating the immediate next as teh next's next we are rewring to might be a duplicate. 
-
----
-
-## What I Learned
-
-- Do not overthink
-- 
-
----
-
-## Alternative Solutions
+- **Time Complexity:** O(n)
+- **Space Complexity:** O(1)
 
 **Recursive Approach**
 - The recursive approach will just be to use recursion to elimate the duplicate or move to the next instead of using a loop. 
@@ -160,16 +119,23 @@ class Solution:
 		return head
 ```
 
----
+## Mistakes
+What I got wrong the first time.
 
-## Similar Problems
+- I brought `prev` thinking i need it to check the previous node and the current after iterating but that didn't handle all each cases like in cases where all duplicates are same as in `[1, 1, 1]` 
 
+## Edge cases
+Empty input, single item, duplicates, overflow, off-by-one.
+
+-  When the duplicates are more than 2. This can be tackled by not just stopping after eliminating the immediate next as teh next's next we are rewring to might be a duplicate. 
+
+## Learned
+What transfers to other problems?
+
+- Do not overthink
 - 
 
----
-
 ## Revisit
-
 - [Solve again-3](Solve%20again-3.md)
 - [ ] Solve again in 1 week
 - [ ] Solve again in 1 month

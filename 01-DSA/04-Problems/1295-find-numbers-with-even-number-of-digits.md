@@ -1,16 +1,31 @@
-# [Find Numbers with even number of digits]
+---
+number: "1295"
+title: 1295-find-numbers-with-even-number-of-digits
+platform: leetcode
+difficulty: easy
+status: new
+date: 2026-08-28
+tags:
+  - ds/array
+---
 
-- **Problem Link:** [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)
-- **Difficulty:** [Easy]
-- **Pattern:** [Array]
+# 1295-find-numbers-with-even-number-of-digits
 
-## Thought Process
+**Link:** https://leetcode.com/problems/find-numbers-with-even-number-of-digits/
 
-### Intuition
+## Summary
+Describe the problem in your own words.
+
+## First thoughts
+What was your initial idea?
 
 I first thought o using a nested loop so i can get the count of numbersof each element in the array. then i then decided to use `str` and `len`. I think this mitght be a cheatsheet and might not be allowed.
 
-### Approach
+## Key insight
+What realization unlocked the solution?
+
+## Solution
+Explain the approach step by step.
 
 I have to go through every single and then to get the number of digits i convert each number to a str and then use the `len` method to find the length of it. I compare
 
@@ -21,12 +36,8 @@ I have to go through every single and then to get the number of digits i convert
 5. if there's no remainder, that's even then i increment the `count` variable which i initialised earlier on.
 6. At the end i return the `count`
 
-### Complexity Analysis
-
 - **Time Complexity:** O(n), becuase i loop over every item once
 - **Space Complexity:** O(1)
-
-## Solution
 
 ```python
 def find_numbers(nums):
@@ -43,3 +54,17 @@ arr=[12,345,2,6,7896]
 arr2=[555,901,482,1771]
 print(find_numbers(arr2))
 ```
+
+## Mistakes
+What I got wrong the first time.
+
+## Edge cases
+Empty input, single item, duplicates, overflow, off-by-one.
+
+## Learned
+What transfers to other problems?
+
+## Revisit
+- [ ] Solve again in 3 days
+- [ ] Solve again in 1 week
+- [ ] Solve again in 1 month

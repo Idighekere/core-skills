@@ -1,16 +1,31 @@
-# [Design a HashMap]
+---
+number: "706"
+title: 0706-design-hashmap
+platform: leetcode
+difficulty: easy
+status: new
+date: 2026-08-28
+tags:
+  - ds/hash-table
+---
 
-- **Problem Link:** [Design HashMap](https://leetcode.com/problems/design-hashmap/)
-- **Difficulty:** [Easy]
-- **Pattern:** [Hash Table]
+# 0706-design-hashmap
 
-## Thought Process
+**Link:** https://leetcode.com/problems/design-hashmap/
 
-### Intuition
+## Summary
+Describe the problem in your own words.
+
+## First thoughts
+What was your initial idea?
 
 I thought of using linkedlists to store the keys after the hash functions runs, but i didn't really have an idea of how to create a Linkedlist node. SO i used help from google to create a linkedlist
 
-### Approach
+## Key insight
+What realization unlocked the solution?
+
+## Solution
+Explain the approach step by step.
 
 - I first create a new `ListNode` class to store the key and value and a pointer to the next node which is initially `None`
 - For the hashset, I iniitalize the size. I use a prime number to reduce collision as they don't have factors except itself and 1.
@@ -35,13 +50,9 @@ for the `get`
 2. we check every node if there's a key that matches ours.
 3. If there is, we return the value, otherwise we keep checking till the end and then return -1
 
-### Complexity Analysis
-
 - **Time Complexity:** O(1) on average, but O(n) on worst case. if the key isn't in the first node
 - - `put`: O(1) on average, but O(n)
 - **Space Complexity:** O(n) - We crete an extra data stricture, a list.
-
-## Solution
 
 ```python
 class ListNode:
@@ -101,3 +112,17 @@ myHashMap.remove(2)
 print(myHashMap.get(2))
 print(myHashMap.get(8))
 ```
+
+## Mistakes
+What I got wrong the first time.
+
+## Edge cases
+Empty input, single item, duplicates, overflow, off-by-one.
+
+## Learned
+What transfers to other problems?
+
+## Revisit
+- [ ] Solve again in 3 days
+- [ ] Solve again in 1 week
+- [ ] Solve again in 1 month

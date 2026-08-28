@@ -1,15 +1,19 @@
-# Problem: 234. Palindrome Linked List
-
-**Date:** 2026-08-27, 05:02
-
-**Platform:** Leetcode
-**Difficulty:** Easy
-**Link:** https://leetcode.com/problems/palindrome-linked-list/description/?envType=problem-list-v2&envId=linked-list
-
+---
+number: "234"
+title: 234-palindrome-linked-list
+platform: leetcode
+difficulty: easy
+status: new
+date: 2026-08-27
+tags:
+  - ds/linked-list
 ---
 
-## Problem Summary
+# 234-palindrome-linked-list
 
+**Link:** https://leetcode.com/problems/palindrome-linked-list/description/?envType=problem-list-v2&envId=linked-list
+
+## Summary
 Describe the problem in your own words.
 
 A palindrome is a number that reads the same when written from the back or in reverse.
@@ -17,34 +21,13 @@ A palindrome is a number that reads the same when written from the back or in re
 So we are just to check if a linked list is a palindrome. 
 And if it can be done in O(n) time and O(1) space
 
----
-
-## First Thoughts
-
+## First thoughts
 What was your initial idea?
 
----
-
-## Pattern(s) Used
-
-- 
-
----
-
-## Data Structure(s) Used
-
-- 
-
----
-
-## Key Insight
-
+## Key insight
 What realization unlocked the solution?
 
----
-
-## Solution Strategy
-
+## Solution
 Explain the approach step by step.
 
 We need 3 core patterns:
@@ -60,50 +43,16 @@ Steps
 5. After the reversal, we start comparing each value of the two `left` and `right` node, if at any point a node's value do not match, we return `False`, but after going through the both list.
 6. We return `True`, becuase at this point we found both lists to match.
 
+## Mistakes
+What I got wrong the first time.
 
----
+## Edge cases
+Empty input, single item, duplicates, overflow, off-by-one.
 
-## Complexity
-
-| Metric | Complexity |
-| -------- | ---------- |
-| Time | |
-| Space | |
-
----
-
-## Mistakes I Made
-
-- 
-
----
-
-## Edge Cases
-
-- 
-
----
-
-## What I Learned
-
-- 
-
----
-
-## Alternative Solutions
-
-- 
-
----
-
-## Similar Problems
-
-- 
-
----
+## Learned
+What transfers to other problems?
 
 ## Revisit
-
 - [ ] Solve again in 3 days
 - [ ] Solve again in 1 week
 - [ ] Solve again in 1 month

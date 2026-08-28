@@ -1,25 +1,39 @@
-# [Two sum]
+---
+number: "1"
+title: 0001-two-sum
+platform: leetcode
+difficulty: easy
+status: new
+date: 2026-08-28
+tags:
+  - ds/array
+  - ds/hash-table
+---
 
-- **Problem Link:** [Two Sum](https://leetcode.com/problems/two-sum/)
-- **Difficulty:** [Easy]
-- **Pattern:** [Array]
+# 0001-two-sum
 
-## Thought Process
+**Link:** https://leetcode.com/problems/two-sum/
 
-### Intuition
+## Summary
+Describe the problem in your own words.
+
+## First thoughts
+What was your initial idea?
 
 I initially thought of adding the value of an index with the value of the next index and comparing with the target. i return the indexes if they sum adds up to the target.
 
 This will require usig two nested loops(for), the outer for the i-index(first number) and the second with the j-index
 
-### Approach
+## Key insight
+What realization unlocked the solution?
+
+## Solution
+Explain the approach step by step.
 
 The implementation of my previous intuition requires two nested loop.
 
 1. the inner loop starts from the next index after the outer loop like i+1,
 2. then i do a condition to return the indexes (i and j) if the summation of array[i]+array[j] is the target.
-
-#### Optimal Approach
 
 The optimal approach is to use a hashmap and loop through the array once.
 
@@ -37,12 +51,8 @@ For [2,7,11,15] where target is 9.
 - I check hashmap if there is 2 and yes, it was added.
 - I return it's value on the hashmap(the index of 2 in the array), with the value(index) of the current number
 
-### Complexity Analysis
-
 - **Time Complexity:** O(n^2) for my initially thought and O(n) when looping once
 - **Space Complexity:** O(n).
-
-## Solution
 
 ```python
 def BF_two_sum(nums, target):
@@ -64,3 +74,17 @@ def two_sum(nums,target):
 arr=[2,7,11,15]
 print(two_sum(arr,9))
 ```
+
+## Mistakes
+What I got wrong the first time.
+
+## Edge cases
+Empty input, single item, duplicates, overflow, off-by-one.
+
+## Learned
+What transfers to other problems?
+
+## Revisit
+- [ ] Solve again in 3 days
+- [ ] Solve again in 1 week
+- [ ] Solve again in 1 month

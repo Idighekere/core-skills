@@ -1,16 +1,31 @@
-# [Design a Hashset]
+---
+number: "705"
+title: 0705-design-hashset
+platform: leetcode
+difficulty: easy
+status: new
+date: 2026-08-28
+tags:
+  - ds/hash-table
+---
 
-- **Problem Link:** [Design HashSet](https://leetcode.com/problems/design-hashset/)
-- **Difficulty:** [Easy]
-- **Pattern:** [Hash Table]
+# 0705-design-hashset
 
-## Thought Process
+**Link:** https://leetcode.com/problems/design-hashset/
 
-### Intuition
+## Summary
+Describe the problem in your own words.
+
+## First thoughts
+What was your initial idea?
 
 I thought of using linkedlists to store the keys after the hash functions runs, but i didn't really have an idea of how to create a Linkedlist node. SO i used help from google to create a linkedlist
 
-### Approach
+## Key insight
+What realization unlocked the solution?
+
+## Solution
+Explain the approach step by step.
 
 - I first create a new `ListNode` class to store the key and a pointer to the next node which is initially `None`
 - For the hashset, I iniitalize the size. I use a prime number to reduce collision as they don't have factors except itself and 1.
@@ -35,13 +50,9 @@ for the `contains`
 2. we check every node if there's a key that matches ours.
 3. If there is, we return `True`, otherwise we keep checking till the end and then return `False`
 
-### Complexity Analysis
-
 - **Time Complexity:** O(1) on average, but O(n) on worst case. if the key isn't in the first node
 - - `add`: O(1) on average, but O(n)
 - **Space Complexity:** O(n) - We crete an extra data stricture, a list.
-
-## Solution
 
 ```python
 class ListNode:
@@ -100,3 +111,17 @@ print(myHashSet.contains(2))
 print(myHashSet.contains(8))
 print(myHashSet)
 ```
+
+## Mistakes
+What I got wrong the first time.
+
+## Edge cases
+Empty input, single item, duplicates, overflow, off-by-one.
+
+## Learned
+What transfers to other problems?
+
+## Revisit
+- [ ] Solve again in 3 days
+- [ ] Solve again in 1 week
+- [ ] Solve again in 1 month

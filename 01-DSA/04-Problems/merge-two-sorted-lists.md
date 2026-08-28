@@ -1,15 +1,20 @@
-# Problem: Merging Two Driver Queues
-
-**Date:** 2026-08-22, 09:43
-
-**Platform:** Synapse
-**Difficulty:** Easy
-**Link:** https://synapseprep.dev/gym/interleaving-surge-queues
-
+---
+number: ""
+title: merge-two-sorted-lists
+platform: synapse
+difficulty: easy
+status: new
+date: 2026-08-22
+tags:
+  - ds/linked-list
+  - pattern/two-pointers
 ---
 
-## Problem Summary
+# merge-two-sorted-lists
 
+**Link:** https://synapseprep.dev/gym/interleaving-surge-queues
+
+## Summary
 Describe the problem in your own words.
 
 There are two queue at a dispatch hub during surge pricing window,  so after the window we want to merge both queue and preserve the order in assending order. 
@@ -18,10 +23,8 @@ We must not convert the queues to list and sort them then merge.
 
 
 [Merging Two Driver Queues (excalidraw)](../../_attachments/Merging%20Two%20Driver%20Queues%202026-08-25%2013.45.27.excalidraw.md)
----
 
-## First Thoughts
-
+## First thoughts
 What was your initial idea?
 Since it involves arranging in a particular order and we shouldn't creatae a new node for to replace the actual node of the two list
 
@@ -71,21 +74,8 @@ class Solution:
 		
 		return curr1
 ```
----
 
-## Pattern(s) Used
-
-- [Two Pointers](../02-Patterns/Two%20Pointers.md)
-
----
-
-## Data Structure(s) Used
-
-- [Linked List](../01-Data%20Structures/Linked%20List.md)
----
-
-## Key Insight
-
+## Key insight
 What realization unlocked the solution?
 
 After hours of struggles trying to make my solution work, i figured out that at some point the pointer of some node gets overwritten. 
@@ -93,10 +83,7 @@ After hours of struggles trying to make my solution work, i figured out that at 
 So i went to youtube for help and I saw that the solution used dummy node. 
 The dummy node approach will enable you to point tail which is `dummy.next` to the actaull value of the comparison (i.e the smallest node value)
 
----
-
-## Solution Strategy
-
+## Solution
 Explain the approach step by step.
 
 1. Start by creating a dummy head which will act as a reference pointer., so we don't have to worry about empty state
@@ -142,58 +129,33 @@ class Solution:
 		return single_unified_driver_line.next
 ```
 
-
-
----
-
-## Complexity
 The time complexity in the worst case depends on the length of the two queues, mostly the longest queue. 
 
-| Metric | Complexity |
-| ------ | ---------- |
-| Time   | O(m+n)     |
-| Space  | O(1)       |
+- **Time Complexity:** O(m+n)
+- **Space Complexity:** O(1)
 
----
-
-## Mistakes I Made
+## Mistakes
+What I got wrong the first time.
 
 -  I tried using the list reference to point to each other at somepoint the reference pointer will be lost. 
 - 
 
----
-
-## Edge Cases
+## Edge cases
+Empty input, single item, duplicates, overflow, off-by-one.
 
 -  Empty list: If both lists are empty, we return None
 - If one is empty while the other ain't empty, we return the other.
 - 
 
----
-
-## What I Learned
+## Learned
+What transfers to other problems?
 
  The problem forbids creating a new node to represent the actual nodes in the two queyes but never a reference pointer in this case the dummy node. 
 The `tail/curr` node must not be `None` so that we don't run into an AttributeError when we try to access it's next
 
 By using this approach we are just pointing the smallest node in the two queue to the tail of the current merged list, 
 
----
-
-## Alternative Solutions
-
-- 
-
----
-
-## Similar Problems
-
-- 
-
----
-
 ## Revisit
-
 - [Solve again-2](Solve%20again-2.md)
 - [ ] Solve again in 1 week
 - [ ] Solve again in 1 month
