@@ -27,4 +27,4 @@ A problem note links *up* to its patterns and data structures; those notes link 
 
 ## Templates
 
-If you're contributing or copying the style: see [_templates](_templates/) — data-structure, pattern, and problem-journal templates.
+Adding a new note? Follow [_templates](_templates/) — data-structure, pattern, or problem-journal.
