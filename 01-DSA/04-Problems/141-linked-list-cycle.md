@@ -15,7 +15,7 @@ tags:
 
 ## Summary
 Describe the problem in your own words.
-The goal of the problem is to detect if a cycle exist in a linkedlist The idea from[Circular Linked List](Circular%20Linked%20List.md), 
+The goal of the problem is to detect if a cycle exist in a [linkedlist](Linked%20List.md) The idea from [Circular Linked List](Circular%20Linked%20List.md), 
 
 A cycle exist when we continously traverse a linkedlist without encountering a tail or node's next to be `None`
 ## First thoughts

@@ -16,7 +16,7 @@ tags:
 ## Summary
 Describe the problem in your own words.
 
-Previously in [141-linked-list-cycle](141-linked-list-cycle.md), the task was to detect if a linkedlist has a cycle, i.e the tail links to another node we have visited before and therefore not `None`, 
+Previously in [141-linked-list-cycle](141-linked-list-cycle.md), the task was to detect if a [linked list](Linked%20List.md) has a cycle, i.e the tail links to another node we have visited before and therefore not `None`, 
 
 In this problem we are tasked to find out that node where the cycle began
 ## First thoughts
