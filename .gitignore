@@ -3,6 +3,9 @@
 .obsidian/workspace-mobile.json
 .obsidian/plugins/
 .obsidian/cache/
+.obsidian/app.json
+.obsidian/appearance.json
+.obsidian/core-plugins.json
 
 # OS files
 .DS_Store
