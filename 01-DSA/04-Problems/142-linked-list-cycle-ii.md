@@ -38,6 +38,9 @@ Realizing that i need a hashmap
 Explain the approach step by step.
 
 I will use the [Fast and Slow Pointers](Fast%20and%20Slow%20Pointers.md), approach to traverse the list, the moment 
+
+## Optimized Solution
+This solution has a mathematical proof that when we traverse and both `slow` and `fast` meet, we should now iterate the `head` and the `slow` at same speed and 
 ## Mistakes
 What I got wrong the first time.
 
