@@ -16,7 +16,7 @@ tags:
 ## Summary
 Describe the problem in your own words.
 
-I am to delete a node in a linkedlist given only the node, I don't have access to the `head` to traverse to that node to delte and keep track of `prev` so the rewiring can be done. 
+I am to delete a node in a [Linked List](Linked%20List.md) given only the node, I don't have access to the `head` to traverse to that node to delte and keep track of `prev` so the rewiring can be done. 
 
 The problem guarantees that:
 - the values are unique

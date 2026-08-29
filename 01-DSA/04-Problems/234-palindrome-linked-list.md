@@ -18,7 +18,7 @@ Describe the problem in your own words.
 
 A palindrome is a number that reads the same when written from the back or in reverse.
 
-So we are just to check if a linked list is a palindrome. 
+So we are just to check if a [Linked List](Linked%20List.md) is a palindrome. 
 And if it can be done in O(n) time and O(1) space
 
 ## First thoughts

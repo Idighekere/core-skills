@@ -20,7 +20,7 @@ We will be given a position, and we are to remove the node at that position from
 
 say we are given `1 -> 3 -> 4` and we are given `n = 2`, it means from the end we count 2 and it lands at 3, so we remove node 3 from the list to have `1 -> 4`
 
-The problem guarantees than n is always <= number of nodes in the list
+The problem guarantees than n is always <= number of nodes in the [Linked List](Linked%20List.md)
 ## First thoughts
 What was your initial idea?
 

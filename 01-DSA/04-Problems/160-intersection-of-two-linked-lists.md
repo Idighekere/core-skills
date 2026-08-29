@@ -17,7 +17,9 @@ tags:
 ## Summary
 Describe the problem in your own words.
 
-## First thoughts
+There are two heads of a [Linked List](Linked%20List.md), at a point the heads intersect in to a single path, the problem requires returning the node at which the intersection occurs or null if there's no intersection at all.
+ 
+ ## First thoughts
 What was your initial idea?
 
 [Hash Table](Hash%20Table.md) to the rescure again. 

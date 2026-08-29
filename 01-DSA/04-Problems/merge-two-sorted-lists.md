@@ -153,7 +153,7 @@ What transfers to other problems?
  The problem forbids creating a new node to represent the actual nodes in the two queyes but never a reference pointer in this case the dummy node. 
 The `tail/curr` node must not be `None` so that we don't run into an AttributeError when we try to access it's next
 
-By using this approach we are just pointing the smallest node in the two queue to the tail of the current merged list, 
+By using this approach we are just pointing the smallest node in the two queue to the tail of the current merged [Linked List](Linked%20List.md), 
 
 ## Revisit
 - [Solve again-2](Solve%20again-2.md)

@@ -18,7 +18,7 @@ Describe the problem in your own words.
 
 A food delivery driver does stop at some spots so we are to retrace the routes by going starting from his last stop to the previous until where it started.
 
-So this is basically a linked list reversal problem the first stop links to the next and so on 
+So this is basically a [Linked List](Linked%20List.md) reversal problem the first stop links to the next and so on 
 
 1 -> 2 -> 3 ->
 
