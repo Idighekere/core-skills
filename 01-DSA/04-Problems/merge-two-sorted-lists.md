@@ -22,9 +22,8 @@ There are two queue at a dispatch hub during surge pricing window,  so after the
 We must not convert the queues to list and sort them then merge. 
 
 
-[Merging Two Driver Queues (excalidraw)](../../_attachments/Merging%20Two%20Driver%20Queues%202026-08-25%2013.45.27.excalidraw.md)
-
-## First thoughts
+![Merging Two Driver Queues (excalidraw)](../../_attachments/Merging%20Two%20Driver%20Queues%202026-08-25%2013.45.27.excalidraw.svg)
+## First thoughts 
 What was your initial idea?
 Since it involves arranging in a particular order and we shouldn't creatae a new node for to replace the actual node of the two list
 
