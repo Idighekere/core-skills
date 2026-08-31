@@ -24,9 +24,8 @@ y = b₀ + b₁·X
 ### Cost function (mean squared error)
 For predictions `ŷ` and actuals `y`, the cost quantifies how wrong the line is:
 
-```
-J(b₀, b₁) = (1/n) Σ (yᵢ − ŷᵢ)²
-```
+$$J(b_0, b_1) = \frac{1}{n} \sum_{i=1}^{n} \left( y_i - \hat{y}_i \right)^{2}$$
+
 Squaring makes big errors *much* worse and keeps the function smooth (differentiable, no absolute-value kinks).
 
 ### Gradient descent — walking downhill
