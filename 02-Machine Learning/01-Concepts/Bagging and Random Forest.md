@@ -16,9 +16,9 @@ It makes use of a base estimators which can be a Decision tree, logistic regress
 
 > As opposed to Voting Classifier which uses **different algorithms** on the **same(entire)** dataset
 
-### Outputs
-In [Classification](Classification.md), the final prediction is made by the meta model `BaggingClassifier` using a majority model approach
-In [Regression](Regression.md), the final prediciton is made using `BaggingRegressor` in sci-kit learn by calculating an averagae of the outputs.
+
+- For [Classification](Classification.md), the final prediction is made by the meta model `BaggingClassifier` using a majority model approach
+- For [Regression](Regression.md), the final prediciton is made using `BaggingRegressor` in sci-kit learn by calculating an averagae of the outputs.
 
 ### Out of Bag
 When using the bagging, some instances of the data will get to be sampled multiple times while others will not be sampled at all.
@@ -37,3 +37,6 @@ bc = BaggingClassifier(base_estimator=DecisionTree(), oob_score=True)
 ## Random Forest
 
 This uses Decision Tree as it's base estimator. It introduces some randomization 
+
+- For [Classification](Classification.md), the final prediction is made by the meta model `RandomForestClassifier` using a majority model approach
+- For [Regression](Regression.md), the final prediciton is made using `BaggingRegressor` in sci-kit learn by calculating an averagae of the outputs.
