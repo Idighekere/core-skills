@@ -20,6 +20,10 @@ A problem note links *up* to its patterns and data structures; those notes link 
 3. [Recursion](01-DSA/03-Concepts/Recursion.md) + [Binary Search](01-DSA/03-Concepts/Binary%20Search.md)
 4. Then dip into patterns as problems require them
 
+## Reference
+
+- [LaTeX Cheatsheet](LaTeX%20Cheatsheet.md) — the 12 symbols + 8 structures for writing math in the ML concept notes (and anywhere else you need a formula).
+
 ## The other areas
 
 - [Machine Learning index](02-Machine%20Learning/README.md)
