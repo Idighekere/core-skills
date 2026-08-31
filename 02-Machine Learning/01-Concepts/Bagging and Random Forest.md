@@ -14,7 +14,8 @@ Bagging is an [*ensemble*](Ensemble%20Learning.md) method that involves training
 
 > As opposed to Voting Classifier which uses **different algorithms** on the **same(entire)** dataset
 
-
-
+### Outputs
+In [Classification](Classification.md), the final prediction is made by the meta model `BaggingClassifier` using a majority model approach
+In [Regression](Regression.md), the final prediciton is made using `BaggingRegressor` in sci-kit learn by calculating an averagae of the outputs.
 
 
