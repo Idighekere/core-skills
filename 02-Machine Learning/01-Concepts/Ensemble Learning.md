@@ -8,5 +8,5 @@ tags:
 ---
 
 # Ensemble Learning
-
-
+- Train **different** model on **same** dataset
+- 
