@@ -21,7 +21,7 @@ All three losses below are **averaged over $n$** — so they're per-sample costs
 
 The squared distance between prediction and truth, averaged. Big errors get punished hard (the squaring), and the function stays smooth (no kinks) so gradient-based methods work.
 
-$$J_{\text{MSE}} = \frac{1}{n} \sum_{i=1}^{n} \left( y^{(i)} - \hat{y}^{(i)} \right)^{2}$$
+$$J_{\text{MSE}} = \frac{1}{n} \sum_{i=1}^{n} \left( y_{(i)} - \hat{y}_{(i)} \right)^{2}$$
 
 - When to use: regression, when outliers are not a big concern.
 - Why "squared" not "absolute": squaring makes big errors dominant and keeps the function differentiable everywhere, so gradient descent works without special-casing kinks.
