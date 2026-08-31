@@ -100,13 +100,13 @@ J(\theta) = \frac{1}{n} \sum_{i=1}^{n} \left( y^{(i)} - \hat{y}^{(i)} \right)^{2
 
 ## Common mistakes
 
-| Mistake | Fix |
-|---|---|
-| `x^2i` | `x^{2i}` (brace multi-char exponents) |
-| `$\hat y$` (no braces) | `$\hat{y}$` (braces around the argument) |
-| `f(x) = 1/1+e^-z` | `f(x) = \frac{1}{1 + e^{-z}}` |
-| unbalanced `$$` | one `$$` to open, one to close, on their own lines |
-| `sum_{i=1}^n` (inline) | use `\sum_{i=1}^{n}` (brace multi-char bounds) |
+| Mistake                | Fix                                                |
+| ---------------------- | -------------------------------------------------- |
+| `x^2i`                 | `x^{2i}` (brace multi-char exponents)              |
+| `$\hat y$` (no braces) | `$\hat{y}$` (braces around the argument)           |
+| `f(x) = 1/1+e^-z`      | `f(x) = \frac{1}{1 + e^{-z}}`                      |
+| unbalanced `$$`        | one `$$` to open, one to close, on their own lines |
+| `sum_{i=1}^n` (inline) | use `\sum_{i=1}^{n}` (brace multi-char bounds)     |
 
 ## Learn it in three steps (~2-3 hours, no install)
 

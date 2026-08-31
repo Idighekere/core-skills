@@ -38,7 +38,7 @@ bc = BaggingClassifier(base_estimator=DecisionTree(), oob_score=True)
 
 ## Random Forest
 
-It makes prediction by combining multiple trees called a 'forest'. This uses Decision Tree as it's base estimator. It introduces some randomization on the features. When making a split, each tree only considers a random subset of features. 
+It makes prediction by combining multiple trees called a 'forest'. This uses Decision Tree as it's base estimator. It introduces some randomization on the features. When making a split, each tree only considers a random subset of features. It uses $\sqrt{n\_features}$ for classication and $\frac{n\_features}{3}$ for regression.
 
 - For [Classification](Classification.md), the final prediction is made by the meta model `RandomForestClassifier` using a majority model approach
 - For [Regression](Regression.md), the final prediciton is made using `RandomForestRegressor` in sci-kit learn by calculating an averagae of the outputs.
