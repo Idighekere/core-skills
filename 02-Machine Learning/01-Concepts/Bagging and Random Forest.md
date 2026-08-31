@@ -36,7 +36,7 @@ bc = BaggingClassifier(base_estimator=DecisionTree(), oob_score=True)
 
 ## Random Forest
 
-This uses Decision Tree as it's base estimator. It introduces some randomization 
+It makes prediction using multiple trees called a 'forest'. This uses Decision Tree as it's base estimator. It introduces some randomization on the features. It 
 
 - For [Classification](Classification.md), the final prediction is made by the meta model `RandomForestClassifier` using a majority model approach
 - For [Regression](Regression.md), the final prediciton is made using `RandomForestRegressor` in sci-kit learn by calculating an averagae of the outputs.
