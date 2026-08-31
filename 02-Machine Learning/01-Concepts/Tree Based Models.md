@@ -119,3 +119,4 @@ Useful for:
 - [Regression](Regression.md) — regression metrics, residual plots
 - [Fine-Tuning Models](Fine-Tuning%20Models.md) — picking `max_depth` with cross-validation
 - [Logistic Regression](Logistic%20Regression.md) — the linear alternative
+- [Bagging and Random Forest](Bagging%20and%20Random%20Forest.md)
