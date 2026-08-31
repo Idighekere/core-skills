@@ -42,3 +42,6 @@ It makes prediction by combining multiple trees called a 'forest'. This uses Dec
 
 - For [Classification](Classification.md), the final prediction is made by the meta model `RandomForestClassifier` using a majority model approach
 - For [Regression](Regression.md), the final prediciton is made using `RandomForestRegressor` in sci-kit learn by calculating an averagae of the outputs.
+Random Forest helps in telling important features that influenced a prediciton.
+
+The `max_depth`, `min_leaf_samples` are not really required in random forest, becuase we need as many trees to use and do the training to avoid overfitting unlike Decision Tree. 
