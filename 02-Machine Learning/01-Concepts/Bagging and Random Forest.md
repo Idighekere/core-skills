@@ -27,6 +27,8 @@ At average, for each model about 63% of the data is sampled while 37% ain't. The
 Often the OOB instances are also trained and evaluate alongside the Bootstrap sample. 
 Each model will have it's own OOB Evaluation score $OOB_i$ and the aggregated OOB evalution score is the average of all the individaul scores
 
+The OOB instances becomes the test set that is used to check each tree's performance
+
 $$\text{OOB Score} = \frac{OOB_1+OOB_2+...+OOB_n}{N}$$
 ```python
 bc = BaggingClassifier(base_estimator=DecisionTree(), oob_score=True)
@@ -40,4 +42,3 @@ It makes prediction by combining multiple trees called a 'forest'. This uses Dec
 
 - For [Classification](Classification.md), the final prediction is made by the meta model `RandomForestClassifier` using a majority model approach
 - For [Regression](Regression.md), the final prediciton is made using `RandomForestRegressor` in sci-kit learn by calculating an averagae of the outputs.
-- 
