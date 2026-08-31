@@ -19,3 +19,4 @@ In [Classification](Classification.md), the final prediction is made by the meta
 In [Regression](Regression.md), the final prediciton is made using `BaggingRegressor` in sci-kit learn by calculating an averagae of the outputs.
 
 
+
