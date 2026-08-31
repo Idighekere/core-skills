@@ -12,6 +12,8 @@ tags:
 ## Bootstrap Aggregation (BAgging )
 Bagging is an [*ensemble*](Ensemble%20Learning.md) method that involves training **same algorithms** multiple times on **different subsets** sampled from the training data.
 
+It makes use of a base estimators which can be a Decision tree, logistic regression, NN etc an the estimators uses all the features fortraining and  prediction
+
 > As opposed to Voting Classifier which uses **different algorithms** on the **same(entire)** dataset
 
 ### Outputs
@@ -31,3 +33,7 @@ bc = BaggingClassifier(base_estimator=DecisionTree(), oob_score=True)
 ```
 
 **N/B:** In sci-kit learn, the OOB score for classifiers corresponds to accuracy score and $R^2$ for regressors
+
+## Random Forest
+
+This uses Decision Tree as it's base estimator. It introduces some randomization 
