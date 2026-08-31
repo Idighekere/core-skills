@@ -26,3 +26,8 @@ Often the OOB instances are also trained and evaluate alongside the Bootstrap sa
 Each model will have it's own OOB Evaluation score $OOB_i$ and the aggregated OOB evalution score is the average of all the individaul scores
 
 $$\text{OOB Score} = \frac{OOB_1+OOB_2+...+OOB_n}{N}$$
+```python
+bc = BaggingClassifier(base_estimator=DecisionTree(), oob_score=True)
+```
+
+**N/B:** In sci-kit learn, the OOB score for classifiers corresponds to accuracy score and $R^2$ for regressors
