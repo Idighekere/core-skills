@@ -39,4 +39,5 @@ bc = BaggingClassifier(base_estimator=DecisionTree(), oob_score=True)
 This uses Decision Tree as it's base estimator. It introduces some randomization 
 
 - For [Classification](Classification.md), the final prediction is made by the meta model `RandomForestClassifier` using a majority model approach
-- For [Regression](Regression.md), the final prediciton is made using `BaggingRegressor` in sci-kit learn by calculating an averagae of the outputs.
+- For [Regression](Regression.md), the final prediciton is made using `RandomForestRegressor` in sci-kit learn by calculating an averagae of the outputs.
+- 
