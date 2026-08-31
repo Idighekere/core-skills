@@ -9,10 +9,10 @@ tags:
 
 # Bagging and Random Forest
 
-## Bagging
-Bagging is an *ensemble* method that involves training same algorithms multiple times on different subsets sampled from the training data.
+## Bagging or Bootstrap Aggregation
+Bagging is an [*ensemble*](Ensemble%20Learning.md) method that involves training **same algorithms** multiple times on **different subsets** sampled from the training data.
 
-> *Recall that an ensemble is when multiple models are combined to get a better prediction output.*
+> As opposed to Voting Classifier which uses **different algorithms** on the **same(entire)** dataset
 
 
 
