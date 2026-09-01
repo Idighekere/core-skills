@@ -27,3 +27,8 @@ Based on the above diagrams, we can see how $\alpha_1$ is used to update the wei
 The prediction results for:
 Classification: is obtained using the weighted majority vote
 Regression: obtained using the weighted average
+
+## Gradient Boosting 
+Unlike AdaBoost that tweaks the weight of its predecessor, Gradient boosting uses its predecessor's residaul error as labels
+
+$$\text{Residaul error} = y_i - \hat{y}_i$$
