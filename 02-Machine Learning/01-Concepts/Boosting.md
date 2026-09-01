@@ -23,3 +23,7 @@ This process is repeated sequentially
 ![](Pasted%20image%2020260901230820.png)
 
 Based on the above diagrams, we can see how $\alpha_1$ is used to update the weight for the next predictor, so Predictor 2, learnt from Predictor 1's errors and updated it's weight based on the error it learnt.
+
+The prediction results for:
+Classification: is obtained using the weighted majority vote
+Regression: obtained using the weighted average
