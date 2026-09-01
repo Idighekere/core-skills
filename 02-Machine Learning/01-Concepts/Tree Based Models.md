@@ -107,7 +107,7 @@ Useful for:
 - Communication (a ranked list of what the model uses).
 
 ## Hyperparameter Tuning:
-We have several methods to get the hyperparameters to obtained a model that is most optimal including Grid Search, Random Search etc
+We have several methods to get the  [hyperparameters](Fine-Tuning%20Models.md) to obtained a model that is most optimal including Grid Search, Random Search etc
 
 ## Pitfalls
 
