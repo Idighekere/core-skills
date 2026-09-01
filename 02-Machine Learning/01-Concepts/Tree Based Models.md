@@ -19,6 +19,7 @@ For classification: each leaf predicts the majority class of the training points
 
 A tree of depth $d$ has up to $2^{d}$ leaves. Depth 5 is a small tree; depth 20 is huge. See [The Bias-Variance Tradeoff](The%20Bias-Variance%20Tradeoff.md) for what that buys you.
 
+A CART with a max-depth of 1, is know as **Decision stump**
 ## How a tree picks the next split
 
 For every feature and every threshold, the tree measures how much the split reduces "impurity" — how mixed the labels are in the two resulting children. It picks the split with the biggest reduction.
