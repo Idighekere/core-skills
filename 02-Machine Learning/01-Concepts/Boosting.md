@@ -32,6 +32,8 @@ Regression: obtained using the weighted average
 Unlike AdaBoost that tweaks the weight of its predecessor, Gradient boosting uses its predecessor's residaul error as labels
 
 $$\text{Residaul error} = y_i - \hat{y}_i$$
-
+The key feature is **shrinkage**. As a learning rage $\eta$ is applied, the residaul error will be shrinked.
 ## Stochastic Gradient Boosting
 Each CARt is trained with random sample of the training data without replacement.
+
+It helps reduce overfitting  and speed up training because not the entire dataset is passed to the predictors, just a subset of the training dataset. 
