@@ -106,6 +106,9 @@ Useful for:
 - Sanity check (a feature you *know* matters should not be zero).
 - Communication (a ranked list of what the model uses).
 
+## Hyperparameter Tuning:
+
+
 ## Pitfalls
 
 - **No `max_depth` set.** The tree grows until every leaf is pure — guaranteed overfitting on real data.
