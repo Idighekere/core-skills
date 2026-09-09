@@ -13,17 +13,22 @@ LIFO ordering — the most recent thing goes out first. Built on top of a dynami
 ## Intuition
 A stack of plates in a cafeteria. You take the plate from the top, and you put clean plates back on top. The plate that went in first is the last one you'll ever touch.
 
+| Where                                       | What forms the structure                                        | Which one, and why                                                   |
+| ------------------------------------------- | --------------------------------------------------------------- | -------------------------------------------------------------------- |
+| **Every function call your program makes**  | A frame holding arguments, locals, and the address to resume at | Stack: the most recent call must finish before the call that made it |
+| **Ctrl+Z, and the browser back button**     | An undo stack and a redo stack working against each other       | Stack: you undo the _last_ action, never the first                   |
+| **Your IDE highlighting an unclosed brace** | Openers pushed as the file is parsed, popped when matched       | Stack: nesting is last-in, first-out by definition                   |
 ## Memory model
 An array with a top pointer. Push = append at the end (O(1) amortized). Pop = remove from the end (O(1)). All the action happens at one end, so access to anything below the top is restricted.
 
 ## Operations
 
-| Operation | Time | Why? |
-|-----------|------|------|
-| Push | O(1) | append at end (amortized) |
-| Pop | O(1) | remove at end |
-| Peek / Top | O(1) | read the end |
-| Search for value | O(n) | must scan |
+| Operation        | Time | Why?                      |
+| ---------------- | ---- | ------------------------- |
+| Push             | O(1) | append at end (amortized) |
+| Pop              | O(1) | remove at end             |
+| Peek / Top       | O(1) | read the end              |
+| Search for value | O(n) | must scan                 |
 
 ## Idioms & gotchas
 - **The matching intuition:** for anything *nested* or *paired* (parentheses, tags, undo history), a stack works because the **last-opened thing must be the first one closed**.
