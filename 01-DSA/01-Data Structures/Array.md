@@ -17,6 +17,7 @@ Explain it like I'm teaching a teenager.
 How is it actually organized in memory?
 
 ## Core Operations
+A full array, always doubles it's slot when a new item wants to come in
 
 | Operation | Time | Why? |
 |-----------|------|------|
