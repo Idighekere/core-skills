@@ -7,7 +7,9 @@ tags: [ds/stack]
 
 # Stack
 It is an abstract data type (ADT), there are more than 1 way to implement it, either  using a [linked list](Linked%20List.md) or a dynamic array
+The dynamic array version is faster, becuase of cache locality. In an array, every item sits right next to each other in memory unlike in linked lists where items are scattered. So it's easy for the CPU to prefetch the items, because if it fetch `item 1`,  it can prefetch `item 2` becuase it knows the exact location, making it a lot faster.
 
+The linked list version can still be preferred, if worse-case push latency matters. In array implementeation, the push is O(1) amortized (average-case), not every push is O(1)
 ## What it solves
 LIFO ordering — the most recent thing goes out first. Built on top of a dynamic array; used anywhere you need "undo" semantics, nested matching, or an explicit recursion.
 
