@@ -6,6 +6,7 @@ tags: [ds/stack]
 ---
 
 # Stack
+It is an abstract data type (ADT), there are more than 1 way to implement it, either  using a [linked list](Linked%20List.md) or a dynamic array
 
 ## What it solves
 LIFO ordering — the most recent thing goes out first. Built on top of a dynamic array; used anywhere you need "undo" semantics, nested matching, or an explicit recursion.
@@ -20,6 +21,7 @@ A stack of plates in a cafeteria. You take the plate from the top, and you put c
 | **Your IDE highlighting an unclosed brace** | Openers pushed as the file is parsed, popped when matched       | Stack: nesting is last-in, first-out by definition                   |
 ## Memory model
 An array with a top pointer. Push = append at the end (O(1) amortized). Pop = remove from the end (O(1)). All the action happens at one end, so access to anything below the top is restricted.
+
 
 ## Operations
 
