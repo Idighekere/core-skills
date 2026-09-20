@@ -2,7 +2,6 @@
 title: "ML & AI Engineering Roadmap"
 type: roadmap
 ---
-
 # Roadmap
 
 Status ladder: `learning` -> `built` -> `explained` -> `mastered`
