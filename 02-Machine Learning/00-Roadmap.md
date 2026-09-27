@@ -318,7 +318,7 @@ Tiers 1-2 are mandatory. Tiers 3-5 are the public byproduct.
 ## How to use this roadmap
 
 **The loop for every concept (about 3 days)**
-1. **Understand:** one intuition source (StatQuest / 3Blue1Brown), one depth source (CS229 / Ng / d2l / Geron), one real-world source (a blog post). Then write "In my own words" without looking.
+1. **Understand:** one intuition source (StatQuest / 3Blue1Brown), one depth source (CS229, CS336 / Ng / d2l / Geron), one real-world source (a blog post). Then write "In my own words" without looking.
 2. **Build:** implement from scratch (NumPy first, library second). Break it on purpose. Save the notebook in `02-Code/` and link it from the concept note.
 3. **Prove:** answer the Self-test cold, explain it aloud, then update `status` and `last-tested` in the note's frontmatter. Anything I can't explain goes back to `learning`.
 
