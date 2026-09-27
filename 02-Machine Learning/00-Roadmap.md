@@ -49,7 +49,7 @@ Focus: Machine Learning -> Deep Learning -> LLMs/AI Engineering, alongside DSA.
 ## Module 1: Core ML
 
 ### 1.1 What ML is
-- [ ] Supervised, unsupervised, self-supervised, reinforcement learning
+- [x] Supervised, unsupervised, self-supervised, reinforcement learning
 - [ ] Regression vs classification; features, labels, parameters vs hyperparameters
 - [ ] Full workflow: problem, data, features, model, evaluation, deploy, monitor
 - [ ] When NOT to use ML
