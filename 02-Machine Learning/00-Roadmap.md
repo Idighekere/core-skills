@@ -277,7 +277,7 @@ Tiers 1-2 are mandatory. Tiers 3-5 are the public byproduct.
 - StatQuest: https://www.youtube.com/@statquest
 - 3Blue1Brown: https://www.youtube.com/@3blue1brown
 - Andrej Karpathy: https://www.youtube.com/@AndrejKarpathy
-- Stanford Online (CS229): https://www.youtube.com/@stanfordonline
+- Stanford Online (CS229,CS336,CME295,CS230): https://www.youtube.com/@stanfordonline
 - freeCodeCamp: https://www.youtube.com/@freecodecamp
 
 **Courses**
