@@ -51,9 +51,9 @@ Focus: Machine Learning -> Deep Learning -> LLMs/AI Engineering, alongside DSA.
 
 ### 1.1 What ML is
 - [x] Supervised, unsupervised, self-supervised, reinforcement learning
-- [ ] Regression vs classification; features, labels, parameters vs hyperparameters
-- [ ] Full workflow: problem, data, features, model, evaluation, deploy, monitor
-- [ ] When NOT to use ML
+- [x] Regression vs classification; features, labels, parameters vs hyperparameters
+- [x] Full workflow: problem, data, features, model, evaluation, deploy, monitor
+- [x] When NOT to use ML
 - **Proof:** classify 5 business problems by type and name the data needed
 
 ### 1.2 Linear regression
