@@ -56,12 +56,13 @@ Focus: Machine Learning -> Deep Learning -> LLMs/AI Engineering, alongside DSA.
 - [x] When NOT to use ML
 - **Proof:** classify 5 business problems by type and name the data needed
 
-### 1.2 Linear regression
-- [ ] Hypothesis, MSE cost, gradient descent (batch, SGD, mini-batch)
-- [ ] Learning rate, convergence, feature scaling
-- [ ] Normal equation, multiple and polynomial features
+### 1.2 Linear regression ([cs229_lecture_1_linear_regression_gradient_descent](cs229_lecture_1_linear_regression_gradient_descent.md))
+
+- [x] Hypothesis, MSE cost, gradient descent (batch, SGD, mini-batch)
+- [x] Learning rate, convergence, feature scaling
+- [x] Normal equation, multiple and polynomial features
 - Notes: [Simple Linear Regression](01-Concepts/Simple%20Linear%20Regression.md), [Regression](01-Concepts/Regression.md)
-- [ ] **Build:** from scratch in NumPy
+- [x] **Build:** from scratch in NumPy [02-Builds/linear-regression-from-scratch.ipynb](02-Builds/linear-regression-from-scratch.ipynb)
 - **Proof:** explain why scaling speeds up gradient descent
 
 ### 1.3 Logistic regression
