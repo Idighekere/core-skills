@@ -1,8 +1,12 @@
 ---
-title: "Classification"
-date: 2026-08-31
+id: Classification
+aliases: []
+tags:
+  - ml
+  - concept/classification
+date: "2026-08-31"
+title: Classification
 type: concept
-tags: [ml, concept/classification]
 ---
 
 # Classification
