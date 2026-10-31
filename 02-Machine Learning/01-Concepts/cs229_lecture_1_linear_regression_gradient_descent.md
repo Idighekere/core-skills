@@ -11,6 +11,8 @@ status: complete
 
 # CS229 Lecture 1: Linear Regression & Gradient Descent
 
+
+
 ## Linear Regression Setup
 
 To perform supervised learning, we decide how to represent our hypotheses $h$.
