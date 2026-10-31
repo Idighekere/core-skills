@@ -13,6 +13,7 @@ status: complete
 
 ![[how learnig works]]
 
+Full Code at [02-Builds/linear-regression-from-scratch.ipynb](02-Builds/linear-regression-from-scratch.ipynb)
 ## Linear Regression Setup
 
 To perform supervised learning, we decide how to represent our hypotheses $h$.
