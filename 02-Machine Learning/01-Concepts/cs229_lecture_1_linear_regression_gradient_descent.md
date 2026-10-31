@@ -11,7 +11,7 @@ status: complete
 
 # CS229 Lecture 1: Linear Regression & Gradient Descent
 
-
+![[how learnig works]]
 
 ## Linear Regression Setup
 
